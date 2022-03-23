@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: var( --burger-color); */
+}
+:ROOT{
+    --primary-color:rgba(0, 0, 0,0.5);
+    --burger-color:rgba(0, 0, 0,0.3);
+    --bordur-color:rgba(0, 0, 0, 0.2);
+}
+.burger{
+     background-color: var( --burger-color);
+     display:flex;
+     flex-direction: flex-end;  
+}
+.burger i{
+ color: rgb(114, 11, 11);
+font-size: 60px;
+position: absolute; 
+right:-19%;
+top:0;
+
+
+}
+/* pour  nav */
+nav{
+     width: 15%;
+    position: fixed;
+    transition: all 2s ease;
+    height: 100vh; 
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    border-right:3px solid var(--bordur-color);
+
+    transform: translateX(-100%);
+}
+.nav{
+    transform: translateX(1%);
+
+}
+/* pour la A logo */
+.nav-Admin{
+ border-bottom: 3px solid var(--bordur-color);
+display: flex;
+padding: 20px;
+align-items: center;
+}
+.nav-Admin label{
+    color: #fff;
+
+}
+.nav-content{
+    border-bottom: 3px solid green;
+    padding: 15px;
+    display: flex;
+}
+.nav-Admin img{
+     width: 50px;
+    height: 50px;
+border-radius: 50%;
+}
+/* pour le user  */
+.nav-user{
+display: flex;
+align-items: center;
+/* padding: 20px; */
+ border-bottom: 3px solid var(--bordur-color);
+}
+.nav-user label{
+    color: #fff;
+}
+.fa-chevron-left{
+    color: #fff;
+}
+.nav-user img{  
+ border-radius: 50%;
+ width: 50px;
+height: 50px;
+}
+
+/* pour search */
+.nav-search{
+    display: flex;
+    /* padding: 20px; */
+    border-bottom: 3px solid var(--bordur-color);
+}
+.nav-search input{
+    position: relative;
+    width: 30vh;
+}
+.nav-search i{
+    position: absolute;
+    left: 26vh;
+    /* margin-top: 4px; */
+    border-right: 10px;
+}
+.nav-content{
+    display: flex;
+    border-bottom: 3px solid var(--bordur-color);
+    flex-direction: row-reverse;
+    width: 27VH;
+}
+.right{
+    flex:2;
+    /* border: 2px solid red; */
+height: 2rem;
+color: white;
+    
+    }
+    .totale{
+        height: 2rem;
+    display: flex;
+    align-items: center;
+   flex:9;
+ justify-content: space-between;
+
+}
+.text1{
+    color: #fff;
+}
+.text2{
+    color: #fff;  
+}
+.left{
+ width: 1vh;
+ 
+    
+}
+ .text{
+  font-size:20px;
+  
+}
+
+.gauge{
+width: 2vh;
+color: white;
+}
+
+

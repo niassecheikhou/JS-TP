@@ -1,0 +1,77 @@
+body{
+background-color:antiquewhite;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    
+    
+}
+
+/* pour le div*/
+.notification{
+display:flex;
+
+justify-content:space-evenly;
+border : 1px solid  rgb(192, 83, 83);
+width: 75%;
+background-color:white;
+height: 15vh;
+margin-right: 300px;
+align-items: center;
+position: absolute;
+top: 15vh;
+left:8vw;
+}
+/*pour le contenu du div*/
+button{
+border-radius: 5px;
+width: 30vh;
+height: 7vh;
+
+}
+
+  /* animations */
+  
+  .Success{
+    background-color:green;
+   
+  }
+  
+  .Danger{
+    background-color:red;
+    
+  }
+  
+   
+ 
+ .Waming{
+    background-color:yellow;
+   
+ }
+   
+   
+ 
+ .Info{
+    background-color:blue;
+   
+ }
+ .footer{
+     /* border: 1px solid rgb(88, 16, 16); */
+    /* height: 20vh; */
+    width: 20vh;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    /* position:absolute; */
+    right:10px;
+    /* transform:translate(-160px,700px); */
+    width: 15vh;
+    height: 7vh;
+
+ }
+  p{
+    
+font-size: 2rem;
+ }
+  
