@@ -6,6 +6,7 @@
 :root{
     --premery-color:#22254b;
     --secondes-color: #373b69;
+    --font-color: #fff;
 }
 body{
 display:flex;
@@ -20,12 +21,18 @@ background-color:var(--premery-color);
     flex-wrap: wrap;
 }
 .search{
+    background-color:transparent;
     display:flex;
   justify-content:flex-end;
+  font-size: 2vh;
+  color:var(--font-color);
+
 }
 .search input{
-height: 15px;
-border: 2px solid var( --secondes-color);
+height: 3vh;
+border-radius: 50px;
+border: 1px solid var(--secondes-color);
+background-color: var(--secondes-color);
 }
 
 #container{
@@ -43,14 +50,14 @@ border: 2px solid var( --secondes-color);
     justify-content:space-between;
     padding: 2rem 1rem 1rem;
     background-color:var(--secondes-color);
-    color: white;
+    color:var(--font-color);
 }
 .movie{
     /* height: 100%; */
     width: 100%;
 }
 .overvieww{
-    background-color: white;
+    background-color: var(--font-color);
     position: absolute; 
     transform: translateY(101%);
     transition: transform 1s ease;
